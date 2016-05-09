@@ -614,7 +614,7 @@ def keyPressed(event, data):
         nextLevel(data)
  
 def timerFired(data):
-    data.theta += .25
+    pass
 
 def onMouseMoved(data, event):
     if not data.pause and data.rotate:

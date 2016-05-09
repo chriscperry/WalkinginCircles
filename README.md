@@ -11,16 +11,16 @@ theta, and chapter. This is very different from both the world
 we live in, and the two dimensional projection of the isometric
 map that we can see of it. 
 
-Written and designed by Chris Perry, and produced by Chris Perry.
+Written and designed by Chris Perry, and produced by Chris Perry for CMU CS 15-112.
 
 A special thanks to Professors Anil Ada and David Kosbie, 
-and to Becca and all the CA's who helped make this happen
+and to Becca and all the CA's who helped make this happen.
 
 Music copyright Dirtwire and Salamandar Crossing
 Sound effects copyright Grant Evans and Mark DiAngelo
 I do not have rights to these works.
 
-Insipred by Overland, Monument Valley, AntiChamber, and Firewatch
+Insipred by Overland, Monument Valley, AntiChamber, and Firewatch.
 
 ## Requirements
 
@@ -33,5 +33,6 @@ TKinter
 ## To Play
 
 ```
-python WalkinginCircles/WalkinginCircles.py
+cd WalkinginCircles
+python walkingInCircles.py
 ```
