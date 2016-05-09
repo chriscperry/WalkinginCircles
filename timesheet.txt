@@ -1,0 +1,108 @@
+timesheet.txt
+
+Christopher Perry,              cperry
+Walking in Circles              15-112
+
+3/15/16, 8:13 PM - 11:04 PM     Created prelimanary framework for board
+
+3/20/16, 7:56 PM - 10:30 PM     Simplified code for generating and rendering
+                                the game board, and created color pallettes
+
+3/22/16, 8:21 PM - 11:12 PM     Finished initial stages! Board is now populated
+                                with trees and a sprite that can be controlled
+                                with WASD or arrow keys
+
+3/23/16, 3:38 PM - 5:02 PM      Worked on character sprite ideas and created a
+                                second stripped down file for testing purposes
+
+3/24/16, 5:23 PM - 6:53 PM      Designed player sprite + minor color changes
+
+3/26/16, 2:12 PM - 3:21 PM      Characters movements are now animated!
+
+3/27/16, 2:43 PM - 5:08 PM      Started work on fractal tree generation and
+                                rendering. Doesn't quite work yet...
+
+3/30/16, 6:07 PM - 7:45 PM      Tried to get semi-transparent shadows, but they
+                                only work with stippling on PCs apperently :/
+
+4/1/16, 3:10 PM - 6:20 PM       Trees now render correctly and are colored like
+                                the ground around them. More types to come soon
+
+4/1/15, 9:42 PM - 10:30 PM      Fleshed out storyboards and major plot points
+
+4/2/16, 2:10 PM - 3:26 PM       Created classes, Forest is a subclass of Board
+                                that is populated with Trees
+
+4/2/16, 8:21 PM - 9:43 PM       Trees now sway in the wind!
+
+4/4/16, 4:52 PM - 6:35 PM       Map now drops for transitions
+
+4/7/16, 2:14 PM - 3:17 PM       Trees now drop in from following level
+
+4/7/16, 11:12 PM - 12:17 AM     Map is now click n drag instead of mouse bound
+
+4/8/16, 10:28 AM - 11:54 PM     Restructured board colors to be a function of 
+                                data.theta instead of fading between two colors
+
+4/9/16, 7:13 PM - 10:34 PM      Fixed maple trees! getTreeSize now does its job
+                                Also, added rain. I just sort of wanted to.
+
+4/10/16, 10:19 AM - 10:37 AM    Wrote a more general getPoint function that can
+                                be used by getTreePoints and getMapPoints            
+
+4/10/16, 2:14 PM - 3:50 PM      Trees now grow!
+
+4/12/16, 8:26 PM - 9:48 PM      Added sound, currently the only sound is rain.
+
+4/13/16, 1:36 PM - 2:28 PM      Added sprites for Cat, and Fox
+
+4/13/16, 6:02 PM - 8:34 PM      Added sprite for Bun and reformatted dialogue
+
+4/13/16, 10:12 PM - 11:28 PM    Broke up original file into modules, includling
+                                threeDeeTrees, simpleAudio, and characterModels
+
+4/14/16, 3:10 PM - 5:25 PM      Can't seem to figure out a better way of
+                                swapping the trees... (5 PM Update) Okay, it
+                                sort of works now...
+
+4/16/16, 9:12 AM - 11:04 AM     Implemented reactive background gradients. 
+                                Level swap now super nifty. 
+
+4/17/16, 12:40 PM - 3:05 PM     Sort of got the portals to work, I think it
+                                will be okay once I make the levels instead of
+                                generating them randomly
+
+4/19/16, 10:25 PM - 11:45 PM    Fixed level switching and started working on 
+                                scripts for NPCs, thinking about adding more
+                                characters to interact with.
+
+4/20/16, 8:07 AM - 10:12 AM     Converting npcs to objects
+
+4/20/16, 11:48 AM - 12:30 AM    fixed chat bubble location
+
+4/21/16, 2:34 PM - 4:10 PM      Set up everything to create level maps         
+
+4/22/16, 8:26 AM - 10:43 AM     Made things prettier! Rain and portals now have
+                                more depth and better animation, music change
+                                and script edits
+
+4/22/16, 8:56 PM - 11:12 PM     Reconfigured scripts, put npcs into a dict.
+
+4/23/16, 9:16 AM - 10:46 AM     Worked on other objects needed for storyline
+
+4/23/16, 7:37 PM - 10:04 PM     Fixed mouse tracking and worked on story
+
+4/24/16, 10:35 AM -  2:00 PM    Something broke with swapTrees, merging with
+                                older version to fix.
+
+4/25/16, 12:32 PM - 4:12 PM     Added sapplings and second to last level
+
+4/26/16, 1:12 PM - 2:19 PM      Sounds for actions, 
+
+4/27/16, 9:07 AM - 11:37 PM     Finished scripts and almost done with the 
+                                final level!
+
+4/27/16, 4:23 PM - 6:42 PM      Polished everything so it all looks nice, still
+                                might want to clean up/comment code though
+
+4/27/16, 11:00 PM - 1:49 AM     Project video filmed and edited

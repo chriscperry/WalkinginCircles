@@ -1,0 +1,27 @@
+codeDesign.txt
+
+The most complex parts of this project was the 3D rendering, 
+which I solved using a modified version of Fancy Wheels. 
+The idea is that an ellipse is a circle that is in perspective,
+so if you apply the same transformation to a square, it will also
+be in perspective. To achive this, I took the trig from Fancy Wheels
+and divided it by 2 (or whatever factor you might want) in the y
+direction in order to put it into perspective.
+
+Then, in order to get the surface of the map to have texture, I
+translated each point by a constant back upwards in the y direction.
+This method is isometric, which means that it does not account for
+foreshortening or tilt, so things tht are farther away do not diminish
+in size, and a surface at eyelevel does not dissappear into a line
+but instead stays at the same size.
+
+This method was used again and again throughout the project, and is
+used to render the 3D trees without too much effort, as well as the
+characters and ivory tower in the last level.
+
+The colors are also dynamic, and each color scheme is composed of 
+a set of three functions for red blue and green channels that take
+the row and col and the angle of the map, and return a color.
+
+The procedural generation of the map has not been solved, and it is
+still possible for it to generate an unsolvable level.
